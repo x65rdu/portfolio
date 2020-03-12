@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dmitry Malinovsky</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-1">
+        <div>
+          <h2>Hello, I am Dmitry, a web developer</h2>
+          <p>HTML, CSS</p>
+          <p>C#, Go</p>
+          <a class="button" href="#contact">Contact Me</a>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <h2>Contact</h2>
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/x65rdu" target="_blank">x65rdu</a>
+      <form action="https://formspree.io/xeqzjjya" method="POST">
+        <input
+          type="text"
+          name="name"
+          placeholder="name"
+          required
+          maxlength="990"
+        />
+        <input
+          type="email"
+          name="_replyto"
+          placeholder="email"
+          required
+          maxlength="345"
+        />
+        <textarea
+          name="text"
+          placeholder="message"
+          required
+          maxlength="1500"
+        ></textarea>
+        <input type="submit" value="Send" class="button" />
+      </form>
+    </footer>
+  </body>
+</html>
